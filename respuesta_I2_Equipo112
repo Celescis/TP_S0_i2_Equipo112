@@ -4,3 +4,6 @@ Sein, Ian
 A- Utilizando el fetch and merge y luego el git pull para traerlo a nuestro repositorio local
 B- Si puede, pero habria que resolver los conflictos de fusion
 
+C- Si podria, pero al actualizar el archivo en la misma linea, aparecerían conflictos de fusion que deberan ser resueltos manualmente
+D- No, no se pierden pero al igual que la respuesta anterior, habrian conflictos de fusion si se encuentra la informacion subida en la misma linea del archivo, por lo cual tambien habria que solucionarlo
+
