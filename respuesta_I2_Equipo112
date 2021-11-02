@@ -7,3 +7,37 @@ B- Si puede, pero habria que resolver los conflictos de fusion
 C- Si podria, pero al actualizar el archivo en la misma linea, aparecerían conflictos de fusion que deberan ser resueltos manualmente
 D- No, no se pierden pero al igual que la respuesta anterior, habrian conflictos de fusion si se encuentra la informacion subida en la misma linea del archivo, por lo cual tambien habria que solucionarlo
 
+E- Listado de comandos:
+Celeste Cisternas:
+1. git init
+2. git clone 'repobeta'
+3. echo '' > fork.txt
+Ian Sein:
+4. git clone 'repogamma'
+5. echo 'Ian Sein' >> fork.txt & hostname -I >> fork.txt & date+%T >> fork.txt'
+6. git add .
+7. git commit -m 'descripcion'
+8. git push
+Tomas D'Angelo:
+9. Repite pasos 4 a 8 con sus datos
+Celeste Cisternas:
+10. echo '' > NuevoDato.txt
+Tomas D'Angelo y Ian Sein:
+11. git pull 'repobeta'
+Celeste Cisternas:
+12. echo -e 'Apellidos y nombres de los integrantes' > respuestas_I2_Equipo112
+Ian Sein:
+13. git pull
+14. echo -e 'respuestas a y b' >> respuesta_I2_Equipo112
+15. Pasos 6 a 8
+16. Pull request
+Celeste Cisternas:
+17. echo -e 'respuestas c y d' >> respuesta_I2_Equipo112
+18. Pasos 6 a 8
+Tomas D'Angelo:
+19. git pull 'repobeta'
+20. git commit (se abre nano y se resuelven los conflictos)
+21. echo 'respuesta e' >> respuesta_I2_Equipo112
+22. Pasos 6 a 8
+23. Paso 16
+
