@@ -37,8 +37,6 @@ archivo.
 7-GAMMA sube las respuestas a- y b-
 6-BETA sube la c- y d-
 7-ALFA sube la e-
-todas en el mismo archivo “respuesta_I2_EquipoX.txt” (donde X es el número del
-
-equipo)
+todas en el mismo archivo “respuesta_I2_EquipoX.txt” (donde X es el número del equipo)
 
 UTN FRA – Tecnicatura Superior en Programación.
